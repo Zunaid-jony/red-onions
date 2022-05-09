@@ -8,3 +8,14 @@
     border-radius: 5px;
     height: 40px;
 }
+.imgs img{
+    width: 40%;
+
+}
+.imgs{
+    margin: 20px;
+    
+}
+.imgs:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

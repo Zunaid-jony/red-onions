@@ -3,11 +3,14 @@ import Footer from '../../Footer/Footer';
 import Home from '../../Home/Home';
 import './Breakfast.css'
 
-const Breakfast = () => {
+const Breakfast = ({service}) => {
+    const {id, name ,price,img,description} = service;
     return (
-            <div>
+            <div className='imgs'>
             
-            <h1> Breakfast Pages</h1>
+            <img src={img}></img>
+            <h4>Price: {price}</h4>
+            <h5>{name}</h5>
         
             
         </div>
