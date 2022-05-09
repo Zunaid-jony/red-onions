@@ -10,6 +10,7 @@ import Breakfast from './componets/Menu/Breakfast/Breakfast';
 import Lunch from './componets/Menu/Lunch/Lunch';
 import Dinner from './componets/Menu/Dinner/Dinner';
 import Service1 from './componets/Menu/Service1/Service1';
+import Breakfull from './componets/Menu/Breakfast/Breakfast-vew/Breakfull';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/breakfast' element={<Service1></Service1>}> </Route>
         <Route path='/lunch' element={<Lunch></Lunch>}> </Route>
         <Route path='/dinner' element={<Dinner></Dinner>}> </Route>
+        <Route path='/breakfast/:breakfasID' element={<Breakfull></Breakfull>}> </Route>
       </Routes>
       </BrowserRouter>
      
