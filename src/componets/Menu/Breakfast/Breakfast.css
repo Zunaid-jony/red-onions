@@ -1,0 +1,10 @@
+.page{
+    margin-top: 50px;
+}
+.button{
+    background-color: rgb(189, 184, 178);
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+}

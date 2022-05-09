@@ -1,0 +1,14 @@
+.menu{
+    text-align: center !important;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+   
+}
+.top{
+    margin: 56px !important;
+}
+.menu:hover{
+    color: rgb(228, 19, 106) !important;
+}

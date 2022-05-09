@@ -1,0 +1,19 @@
+.logo{
+    width: 90px;
+    width: 60px;
+}
+.nav-color{
+    color: black !important;
+    text-decoration: none;
+    padding: 5px;
+    
+
+}
+.sign-up{
+    background-color: rgb(224, 13, 129) !important;
+    border-radius: 15px;
+    height: 35px;
+    width: 100px;
+    color: white !important;
+  
+}
