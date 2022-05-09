@@ -6,6 +6,13 @@ const Login = () => {
            <h1>
                This is login pages
            </h1>
+           <h1>
+               This is login pages
+           </h1><h1>
+               This is login pages
+           </h1><h1>
+               This is login pages
+           </h1>
         </div>
     );
 };

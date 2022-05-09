@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
+        <div className='fixed-top'>
             {/* <nav>
           <ul>
             <li>
@@ -25,7 +25,8 @@ const Header = () => {
           </ul>
         </nav>
             */}
-            <Navbar collapseOnSelect expand="lg" bg="white" variant="dark">
+           
+            <Navbar collapseOnSelect expand="lg" bg="white" variant="dark" sticky="top" >
                 <Container>
                 <Navbar.Brand><img src={Img} className="logo" ></img> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -33,7 +34,7 @@ const Header = () => {
                 <Nav className="me-auto">
                     
                 </Nav>
-                <Nav >
+                <Nav  >
                 <Nav.Link className='nav-color' ><FiShoppingCart></FiShoppingCart> </Nav.Link>
                      <Link NavLink   className='nav-color' to="/"></Link>
                     <Link NavLink   className='nav-color' to="/login">Login</Link>
@@ -44,6 +45,7 @@ const Header = () => {
                 </Navbar.Collapse>
                 </Container>
             </Navbar>
+        
             
         </div>
     );

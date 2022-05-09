@@ -1,5 +1,5 @@
 .logo{
-    width: 90px;
+    width: 150px !important;
     width: 60px;
 }
 .nav-color{
@@ -16,4 +16,8 @@
     width: 100px;
     color: white !important;
   
+}
+.nav-i{
+    position: fixed !important;
+    width: 100%;
 }

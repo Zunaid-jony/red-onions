@@ -9,6 +9,7 @@ import Home from './componets/Home/Home';
 import Breakfast from './componets/Menu/Breakfast/Breakfast';
 import Lunch from './componets/Menu/Lunch/Lunch';
 import Dinner from './componets/Menu/Dinner/Dinner';
+import Service1 from './componets/Menu/Service1/Service1';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <Route path='/' element={<Home></Home>}> </Route>
         <Route path='/login' element={<Login></Login>}> </Route>
         <Route path='/registration' element={<Registration></Registration>}> </Route>
-        <Route path='/breakfast' element={<Breakfast></Breakfast>}> </Route>
+        <Route path='/breakfast' element={<Service1></Service1>}> </Route>
         <Route path='/lunch' element={<Lunch></Lunch>}> </Route>
         <Route path='/dinner' element={<Dinner></Dinner>}> </Route>
       </Routes>
