@@ -1,14 +1,24 @@
 import React from 'react';
-import Footer from '../../Footer/Footer';
-import Home from '../../Home/Home';
 
-const Lunch = () => {
+import { Link } from 'react-router-dom';
+
+const Lunch = ({service}) => {
+
+        const {id, name ,price,img,description} = service;
+        const url =`/lunch/${id}`;
+    
     return (
-        <div>
-            <Home></Home>
-            <h1> this is Lunch page</h1>
-            <Footer></Footer>
-        </div>
+        <div className='imgs'>
+            
+        <img src={img}></img>
+        <h5>{name}</h5>
+        <p>{description}</p>
+        <h4>Price: {price}</h4>
+        <Link to={url}>Vew</Link>
+        
+    
+        
+    </div>
     );
 };
 

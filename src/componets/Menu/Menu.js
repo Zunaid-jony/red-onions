@@ -8,13 +8,13 @@ const Menu = () => {
        <div className='top'>
             <Nav className="justify-content-center" activeKey="/">
         <Nav.Item >
-          <Link className='menu' to='/breakfast'>Breakfast</Link>
+          <Link className='menu active' to='/breakfast'>Breakfast</Link>
         </Nav.Item>
         <Nav.Item>
-          <Link className='menu' to='/lunch'>Lunch</Link>
+          <Link className='menu active' to='/lunch'>Lunch</Link>
         </Nav.Item>
         <Nav.Item>
-          <Link className='menu' to='/dinner'>Dinner</Link>
+          <Link className='menu active' to='/dinner'>Dinner</Link>
         </Nav.Item>
        
       </Nav>

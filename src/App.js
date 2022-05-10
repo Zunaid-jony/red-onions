@@ -11,6 +11,8 @@ import Lunch from './componets/Menu/Lunch/Lunch';
 import Dinner from './componets/Menu/Dinner/Dinner';
 import Service1 from './componets/Menu/Service1/Service1';
 import Breakfull from './componets/Menu/Breakfast/Breakfast-vew/Breakfull';
+import Lunch1 from './componets/Menu/Lunch1/Lunch1';
+import LunchView from './componets/Menu/Lunch/LunchView/LunchView';
 
 
 function App() {
@@ -24,9 +26,10 @@ function App() {
         <Route path='/login' element={<Login></Login>}> </Route>
         <Route path='/registration' element={<Registration></Registration>}> </Route>
         <Route path='/breakfast' element={<Service1></Service1>}> </Route>
-        <Route path='/lunch' element={<Lunch></Lunch>}> </Route>
+        <Route path='/lunch' element={<Lunch1></Lunch1>}> </Route>
         <Route path='/dinner' element={<Dinner></Dinner>}> </Route>
         <Route path='/breakfast/:breakfasID' element={<Breakfull></Breakfull>}> </Route>
+        <Route path='/lunch/:lunchID' element={<LunchView></LunchView>}> </Route>
       </Routes>
       </BrowserRouter>
      
