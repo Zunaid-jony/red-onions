@@ -9,7 +9,7 @@ const Breakfull = () => {
     const{breakfasID} =useParams();
     const [breakfas, setbreakfas] = useState({})
     useEffect(() =>{
-         const url = `https://api.npoint.io/d2e1393336aca0646b17/${breakfasID}`
+         const url = ` https://api.npoint.io/d2e1393336aca0646b17/${breakfasID}`
         fetch(url)
         .then(response => response.json())
         .then(data => setbreakfas(data))

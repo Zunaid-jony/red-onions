@@ -6,9 +6,6 @@ import Footer from './../../Footer/Footer';
 import './Service.css'
 
 
-
-
-
 const Service1 = () => {
     const [services, setService] = useState([])
     useEffect(() => {

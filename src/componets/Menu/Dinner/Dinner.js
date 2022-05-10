@@ -1,16 +1,22 @@
 import React from 'react';
-import Footer from '../../Footer/Footer';
-import Benar from '../../Header/benar/Benar';
-import Header from '../../Header/Header';
-import Home from '../../Home/Home';
+import { Link } from 'react-router-dom';
 
-const Dinner = () => {
+
+const Dinner = ({service}) => {
+    const {id, name ,price,img,description} = service;
+    const url =`/dinner/${id}`;
     return (
-        <div>
-           <Home></Home>
-            <h1>Dinner pages</h1>
-            <Footer></Footer>
-        </div>
+        <div className='imgs'>
+            
+        <img src={img}></img>
+        <h5>{name}</h5>
+        <p>{description}</p>
+        <h4>Price: {price}</h4>
+        <Link to={url}>Vew</Link>
+        
+    
+        
+    </div>
     );
 };
 
