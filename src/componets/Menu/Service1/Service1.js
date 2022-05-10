@@ -1,6 +1,7 @@
 import React,{ useEffect, useState } from 'react';
 import Home from '../../Home/Home';
 import Breakfast from '../Breakfast/Breakfast';
+import Breakfull from '../Breakfast/Breakfast-vew/Breakfull';
 import Footer from './../../Footer/Footer';
 import './Service.css'
 
@@ -28,6 +29,7 @@ const Service1 = () => {
                     service={service}
                     ></Breakfast>)
                 }
+               
                 </div>
                     <button className='button' style={{}}>Checkout your food</button>
             <Footer></Footer>

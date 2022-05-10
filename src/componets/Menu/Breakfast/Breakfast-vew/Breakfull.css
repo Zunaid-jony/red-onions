@@ -1,0 +1,32 @@
+
+.breakfull-container{
+    display: flex;
+}
+.img-i img{
+    width: 40%;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 230px;
+}
+.name-list{
+    margin-left: 70px;
+}
+.name-list .button-1{
+    border-radius: 15px;
+    width: 70px;
+    background-color: white;
+    border-color: white;
+
+  
+
+}
+.name-list .button-add {
+    background-color: rgb(199, 14, 100);
+    border-radius: 15px;
+    width: 100px;
+    height: 34px;
+    border-color: gray;
+    color: white;
+    margin-right: 40px;
+}
