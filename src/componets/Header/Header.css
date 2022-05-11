@@ -5,9 +5,16 @@
 .nav-color{
     color: black !important;
     text-decoration: none;
-    padding: 5px;
-    
+    padding: 5px; 
 
+}
+ Button{
+    margin-top: -5px !important;
+    color: green;
+
+}
+#profile{
+    margin-top: -8px;
 }
 .sign-up{
     background-color: rgb(224, 13, 129) !important;

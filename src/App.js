@@ -14,11 +14,13 @@ import Lunch1 from './componets/Menu/Lunch1/Lunch1';
 import LunchView from './componets/Menu/Lunch/LunchView/LunchView';
 import Dinner1 from './componets/Menu/Dinner1/Dinner1';
 import DinnerView from './componets/Menu/Dinner/DinnerView/DinnerView';
+import AuthProvider from './componets/contexts/AuthProvider';
 
 
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <BrowserRouter>
       <Header></Header>
      
@@ -34,6 +36,7 @@ function App() {
         <Route path='/dinner/:dinnerID' element={<DinnerView></DinnerView>}> </Route>
       </Routes>
       </BrowserRouter>
+      </AuthProvider>
      
      
     </div>
